@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<overlay id="anytype-overlay"
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+    
+    <!-- Add a button to the Zotero toolbar -->
+    <hbox id="zotero-items-toolbar">
+        <toolbarbutton id="zotero-anytype-button"
+                      label="Export to Anytype"
+                      tooltiptext="Export selected items to Anytype"
+                      oncommand="Zotero.AnytypeManager.exportToAnytype();"
+                      insertafter="zotero-tb-attachment-add"/>
+    </hbox>
+</overlay>
